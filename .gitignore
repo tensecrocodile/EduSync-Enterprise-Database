@@ -1,0 +1,44 @@
+.gitignore# Database backups and logs
+*.bak
+*.sql.gz
+*.log
+*.swp
+*.swo
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# System files
+Thumbs.db
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Package manager files
+node_modules/
+*.lock
+
+# OS-specific
+.DS_Store
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Database-specific
+*.sqlite
+*.sqlite3
+*.db
